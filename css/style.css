@@ -5,8 +5,18 @@
   background-position: center;
   color: white;
   text-align: center;
-
 }
 .aboutus{
   text-align: center;
+  margin-top: 40px;
+}
+.services{
+  background-image: url("../images/s_image.jpg");
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 40px;
+  padding-top: 20px;
 }
