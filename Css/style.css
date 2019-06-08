@@ -26,8 +26,16 @@
 }
 .whatwedo{
 text-align: center;
-margin-top: 20px;
+margin-top: 40px;
 }
 .portfolio{
   text-align: center;
+}
+.contact{
+  width: 100%;
+  background-image: url("../images/c_image.jpg");
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
 }
