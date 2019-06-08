@@ -14,8 +14,9 @@
   margin-top: 40px;
 }
 .services{
-  background-image: url("../images/s_image.jpg");
+  width: 100%;
   color: white;
+  background-image: url("../images/s_image.jpg");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
