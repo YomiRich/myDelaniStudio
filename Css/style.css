@@ -38,4 +38,12 @@ margin-top: 40px;
   text-align: center;
   margin-top: 40px;
   padding-top: 20px;
+  display: inline;
+}
+.social{
+  margin-left: 300px;
+  margin-top: 40px;
+}
+.social p {
+  text-align: center;
 }
