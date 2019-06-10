@@ -10,10 +10,19 @@ $(document).ready(function(){
 
 $("#development-img").on('click', function(){
   $("#development-img").hide();
-$("#devolopment-p").show();
+$("#development-p").show();
 });
 $("#development-p").on('click', function(){
   $("#development-p").hide();
   $("#development-img").show();
   });
+
+  $("#product-img").on('click', function(){
+    $("#product-img").hide();
+  $("#product-p").show();
+  });
+  $("#product-p").on('click', function(){
+    $("#product-p").hide();
+    $("#product-img").show();
+    });
 });
