@@ -25,6 +25,7 @@ $("#development-p").on('click', function(){
     $("#product-p").hide();
     $("#product-img").show();
     });
+    //toogle//
     $(".t1").mouseenter(function(){
         $(".text1").show();
     })
