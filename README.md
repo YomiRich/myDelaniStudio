@@ -13,13 +13,14 @@ This is a platform for amazing creatives who receive work from clients inform of
 * Enter numbers on the application to determine what type of triangle it forms.
 
 ## Known Bugs
-There is one bug only. The jquery is not responding.
+* The contact section is not responsive. Does not give an alert.
 
 ## Technologies Used
 This application has Used
 * html
 * css
 * bootstrap
+* jquery
 
 ## Support and contact details
 ymueni@gmail.com
