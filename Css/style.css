@@ -7,12 +7,13 @@
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-
 }
+
 .aboutus{
   text-align: center;
   margin-top: 40px;
 }
+
 .services{
   width: 100%;
   color: white;
@@ -24,25 +25,17 @@
   margin-top: 40px;
   padding-top: 20px;
 }
+
 .whatwedo{
 text-align: center;
 margin-top: 40px;
 
 }
 
-.d2{
-  display: none;
-}
-.dl2{
-  display: none;
-  margin-left: 60px;
-}
-.pm2{
-  display: none;
-}
 .portfolio{
   text-align: center;
 }
+
 .contact{
   width: 100%;
   background-image: url("../images/c_image.jpg");
@@ -53,27 +46,32 @@ margin-top: 40px;
   display: inline;
   margin-left: 80px;
 }
+
 .name{
   position: relative;
     color: #fff;
-    width: 20%;
+    width: 15%;
     margin-left: 1%;
 }
+
 .email{
   position: relative;
     color: #fff;
-    width: 58%;
+    width: 25%;
   }
+
 .comment{
-  position: relative;
+  position: static;
     color: #fff;
     width: 60%;
     margin-left: 20%;
 }
+
 .social{
   margin-left: 300px;
   margin-top: 40px;
 }
+
 .social p {
   text-align: center;
 }
