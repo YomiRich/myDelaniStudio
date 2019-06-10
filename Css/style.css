@@ -27,6 +27,18 @@
 .whatwedo{
 text-align: center;
 margin-top: 40px;
+
+}
+
+.d2{
+  display: none;
+}
+.dl2{
+  display: none;
+  margin-left: 60px;
+}
+.pm2{
+  display: none;
 }
 .portfolio{
   text-align: center;
@@ -39,6 +51,24 @@ margin-top: 40px;
   margin-top: 40px;
   padding-top: 20px;
   display: inline;
+  margin-left: 80px;
+}
+.name{
+  position: relative;
+    color: #fff;
+    width: 20%;
+    margin-left: 1%;
+}
+.email{
+  position: relative;
+    color: #fff;
+    width: 58%;
+  }
+.comment{
+  position: relative;
+    color: #fff;
+    width: 60%;
+    margin-left: 20%;
 }
 .social{
   margin-left: 300px;

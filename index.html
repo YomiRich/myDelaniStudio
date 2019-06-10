@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="Css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="Css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script><script type="js/scripts.js"></script>
     <title>myDelaniStudio</title>
   </head>
   <body>
@@ -13,22 +14,22 @@
 
 
 
-  <!-----Home page----->
+  <!---Home page----->
 <div class="home">
 
-  <img src="images/logo.jpg" alt="logo">
+  <img src="images/logo.png" alt="logo">
   <h1>WELCOME</h1> <br><h1>TO DELANI STUDIOS</h1> <br><br><p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
   <img src="images/mouse_click.jpg" alt="logo">
 
 </div>
-<!-----About Us----->
+<!---About Us----->
 <div class="aboutus">
 
   <h2>ABOUT US</h2>
   <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are integrated, interactive <br>and agile.<br><br> Our approach unifies design, development and project management to create exceptional products. <br><br>We start each project by understanding our business goals, the user's needs and the products requirements.<br><br>Then we help translate them into effective and elegant solutions</p>
 
 </div>
-<!------Services----->
+<!---Services----->
 <div class="services">
 
   <h2>SERVICES</h2>
@@ -39,31 +40,32 @@
   you need.</p>
 
 </div>
-<!-----What we do----->
+<!---What we do----->
 <div class="whatwedo">
 
 <h2>WHAT WE DO</h2>
 <div class="row">
- <div class="col-4">
-  <img src="images/design_icon.png" alt="icon">
-  <h3>DESIGN</h3>
-  <p>Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
+ <div class="col-4" id="design">
+
+  <img src="images/design_icon.png" alt="icon" >
+
+   <h3 class="d1">DESIGN</h3>
+  <p class="d2">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
 </div>
-<div class="col-4">
+<div class="col-4" id="development">
   <img src="images/dev_icon.png" alt="icon">
-  <h3>DEVELOPMENT</h3>
-  <p>
-All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+  <h3 class="dl1">DEVELOPMENT</h3>
+  <p class="dl2">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
 </div>
-<div class="col-4">
+<div class="col-4" id="product">
   <img src="images/product_icon.png" alt="icon">
-  <h3>PRODUCT MANAGEMENT</h3>
-  <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.</p>
+  <h3 class="pm1">PRODUCT MANAGEMENT</h3>
+  <p class="pm2">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.</p>
 </div>
 </div>
 </div>
 <br><br>
-<!-----Portfolio----->
+<!---Portfolio----->
 <div class="portfolio">
 
 <h2>PORTFOLIO</h2>
@@ -102,15 +104,16 @@ All engineers are fluent in the latest enterprise, mobile and web development te
 </div>
 </div>
 <br>
-<!-----Contact Us----->
+<!---Contact Us----->
 <div class="contact">
 <h2>CONTACT US</h2>
-<input type="text" name="name" placeholder="Name" class="form-control">
-<input type="email" name="email" placeholder="Email" class="form-control">
-<textarea class="form-control" rows="5" placeholder="Message"></textarea>
-<button class="btn btn-primary">Submit</button>
+<input class="name" style="background-color:transparent" type="text" name="id_number" placeholder="Name..." id="id_number2" size="10" maxlength="10">
+<input class="email" style="background-color:transparent" type="email" name="id_number" placeholder="Email..." id="id_number1"><br><br>
+<textarea class="comment" style="background-color:transparent" name="comments" id="id_number" rows="10" cols="50" wrap="physical" placeholder="Your Message here...">
+</textarea><br><br>
+<button boarder-radius="25px" class="button" type="submit">Submit</button>
 </div>
-<!-----Footer/Social Media----->
+<!---Footer/Social Media----->
 <div class="social">
 <img src="social_icons/behance.png" alt="icon">
 <img src="social_icons/dribble.png" alt="icon">
@@ -127,5 +130,7 @@ All engineers are fluent in the latest enterprise, mobile and web development te
 </div>
 </div>
 
+<script type="js/jquery-3.4.1.js"></script>
+<script type="js/scripts.js"></script>
   </body>
 </html>
