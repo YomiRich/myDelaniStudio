@@ -5,6 +5,12 @@
 
 ## Description
 This is a platform for amazing creatives who receive work from clients inform of ideas, and then execute the ideas to products.
+
+## Behaviour Driven Development
+| Behaviour | Input | Output |
+| :---         |     :---:      |          ---: |
+| Hover effect on portfolio images   | move mouse on any image     | block box appears with text inside    |
+
 ## Setup/Installation Requirements
 * Click on this link https://github.com/YomiRich/myDelaniStudio
 * Git clone https://github.com/YomiRich/myDelaniStudio.git
